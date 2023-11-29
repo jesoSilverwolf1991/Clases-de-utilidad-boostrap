@@ -1,0 +1,13 @@
+body {
+    padding: 20px;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+
+  h1{
+    text-align: center;
+  }

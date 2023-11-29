@@ -1,0 +1,19 @@
+body {
+    padding: 20px;
+    background-image: url(pxfuel.jpg);
+    background-size: cover;
+  }
+  
+  .card {
+    cursor: grab;
+  }
+  
+  .card:active {
+    cursor: grabbing;
+  }
+  
+  h2{
+    color: #fff;
+    text-align: center;
+  }
+  

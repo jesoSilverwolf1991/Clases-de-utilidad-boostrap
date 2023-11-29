@@ -1,0 +1,30 @@
+
+body {
+    background-image: url(musicafondo.jpg);
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  #playlist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #playlist li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  #playlist li:hover {
+    background-color: #e9ecef;
+  }
+  h1{
+    color: #fff;
+    text-align: center;
+  }
+  

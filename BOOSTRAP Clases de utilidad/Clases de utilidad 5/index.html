@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Galería de Imágenes con Lightbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="gallery-container" style="text-align: center;">
+    <h2 class="gallery-title">Galería de Imágenes</h2>
+
+    <div class="row" id="image-container">
+     
+        <div class="col-md-4">
+            <a href="poster1" class="thumbnail" onclick="openLightbox('poster1'); return false;">
+                <img src="poster1" alt="Imagen 1" class="img-thumbnail" width="300px" height="500px">
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="poster2.jpg" class="thumbnail" onclick="openLightbox('poster2.jpg'); return false;">
+                <img src="poster2.jpg" alt="Imagen 2" class="img-thumbnail" width="300px" height="500px">
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="poster3.jpg" class="thumbnail" onclick="openLightbox('poster3.jpg'); return false;">
+                <img src="poster3.jpg" alt="Imagen 3" class="img-thumbnail" width="300px" height="500px">
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="poster4.jpg" class="thumbnail" onclick="openLightbox('poster4.jpg'); return false;">
+                <img src="poster4.jpg" alt="Imagen 3" class="img-thumbnail" width="300px" height="500px">
+            </a>
+        </div>
+       
+
+    </div>
+</div>
+
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="close-btn">&times;</span>
+    <img src="" alt="Imagen en Lightbox" id="lightbox-image">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
